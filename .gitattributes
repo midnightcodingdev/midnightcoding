@@ -1,0 +1,48 @@
+# 🌙 Midnight Coding — .gitattributes Configuration
+# Ensures consistent line endings, encoding, and formatting across IDEs (VS Code & IntelliJ)
+
+# --- Default text files ---
+* text=auto eol=crlf
+
+# --- Force UTF-8 encoding for all text files ---
+*.java      text working-tree-encoding=UTF-8
+*.md        text working-tree-encoding=UTF-8
+*.json      text working-tree-encoding=UTF-8
+*.yml       text working-tree-encoding=UTF-8
+*.xml       text working-tree-encoding=UTF-8
+*.html      text working-tree-encoding=UTF-8
+*.css       text working-tree-encoding=UTF-8
+*.js        text working-tree-encoding=UTF-8
+*.ts        text working-tree-encoding=UTF-8
+*.gitignore text working-tree-encoding=UTF-8
+
+# --- Normalize line endings ---
+*.sh        text eol=lf
+*.bat       text eol=crlf
+
+# --- Binary files ---
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.exe binary
+*.jar binary
+*.class binary
+
+# --- Documentation ---
+README.md text working-tree-encoding=UTF-8 eol=crlf
+LICENSE   text working-tree-encoding=UTF-8 eol=crlf
+
+# --- OBS / Channel Assets ---
+ChannelAssets/* binary
+Obs/* binary
+
+# --- Ensure configuration consistency ---
+.vscode/* text eol=crlf working-tree-encoding=UTF-8
+.idea/*   text eol=crlf working-tree-encoding=UTF-8
