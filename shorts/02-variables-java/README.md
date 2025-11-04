@@ -19,3 +19,14 @@ public class Main {
         System.out.println("Focus Hours: " + focusHours + "h 🌙");
     }
 }
+
+▶️ Run the Program
+javac Main.java
+java Main
+
+
+Output:
+
+Name: Midnight Coder
+Age: 25
+Focus Hours: 1.5h
