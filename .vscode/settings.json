@@ -2,7 +2,8 @@
   // 🌙 Midnight Coding — Java Project Configuration
   // Ensures VS Code recognizes Java files properly (even outside Maven/Gradle)
   "java.project.sourcePaths": [
-    ".idea/shorts/01-helloworld-java/src"
+    ".idea/shorts/01-helloworld-java/src",
+    "shorts/02-variables-java/src"
   ],
   "java.project.referencedLibraries": ["lib/**/*.jar"],
   "java.configuration.updateBuildConfiguration": "automatic",
@@ -13,9 +14,15 @@
   "files.eol": "\r\n",
   "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
-  "editor.renderWhitespace": "selection",
+  "editor.fontWeight": "500",
+  "editor.lineHeight": 26,
   "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line-thin",
+  "editor.renderWhitespace": "none",
+  "editor.occurrencesHighlight": false,
+  "editor.renderLineHighlight": "none",
   "java.debug.settings.console": "internalConsole"
 }
