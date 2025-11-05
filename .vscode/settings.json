@@ -2,8 +2,9 @@
   // 🌙 Midnight Coding — Java Project Configuration
   // Ensures VS Code recognizes Java files properly (even outside Maven/Gradle)
   "java.project.sourcePaths": [
+    "shorts/02-variables-java/src",
     ".idea/shorts/01-helloworld-java/src",
-    "shorts/02-variables-java/src"
+    "shorts/03-for-loop-java/src"
   ],
   "java.project.referencedLibraries": ["lib/**/*.jar"],
   "java.configuration.updateBuildConfiguration": "automatic",
