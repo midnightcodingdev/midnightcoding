@@ -100,3 +100,4 @@ ChannelAssets/
 !.gitignore
 !README.md
 !LICENSE
+.vscode/
