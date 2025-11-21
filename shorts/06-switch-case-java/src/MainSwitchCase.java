@@ -1,4 +1,4 @@
-public class Main {
+public class MainSwitchCase {
     public static void main(String[] args) {
         int day = 5;
         String dayName;

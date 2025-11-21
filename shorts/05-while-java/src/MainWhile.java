@@ -1,4 +1,4 @@
-public class Main {
+public class MainWhile {
     public static void main(String[] args) {
         int focus = 1;
 

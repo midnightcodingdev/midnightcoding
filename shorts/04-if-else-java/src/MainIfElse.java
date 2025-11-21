@@ -1,4 +1,4 @@
-public class Main {
+public class MainIfElse {
     public static void main (String[] args) {
         int focusLevel = 80;
 

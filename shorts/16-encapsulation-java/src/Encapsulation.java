@@ -1,4 +1,4 @@
-class Focus {
+class FocusEncapsulation {
     private String state = "Calm";
 
     public String getState() {
@@ -12,7 +12,7 @@ class Focus {
 
 public class Encapsulation {
     public static void main(String[] args) {
-        Focus f = new Focus();
+        FocusEncapsulation f = new FocusEncapsulation();
 
         System.out.println(f.getState() + "!");
 

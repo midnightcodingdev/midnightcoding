@@ -1,4 +1,4 @@
-public class Main {
+public class MainOverloading {
 
     static void focus() {
         System.out.println("Focus deep. Code quiet.");

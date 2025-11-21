@@ -1,7 +1,7 @@
-class Focus{
+class FocusArrays{
     String state;
 
-    Focus(String state) {
+    FocusArrays(String state) {
         this.state = state;
     }
 
@@ -10,13 +10,13 @@ class Focus{
     }
 
     public static void main(String[] args) {
-        Focus[] sessions = {
-            new Focus("Calm"),
-            new Focus("Flow"),
-            new Focus("Deep")
+        FocusArrays[] sessions = {
+            new FocusArrays("Calm"),
+            new FocusArrays("Flow"),
+            new FocusArrays("Deep")
         };
 
-        for (Focus f : sessions) {
+        for (FocusArrays f : sessions) {
             f.show();
         }
     }

@@ -1,4 +1,4 @@
-public class Main {
+public class MainArrays {
     public static void main(String[] args) {
         String[] focusWords = {
             "Calm",

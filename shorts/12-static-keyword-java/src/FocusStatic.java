@@ -1,4 +1,4 @@
-public class Focus {
+public class FocusStatic {
 
     static String mode = "Static calm mode: on";
 

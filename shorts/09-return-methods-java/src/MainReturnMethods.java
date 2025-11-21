@@ -1,4 +1,4 @@
-public class Main {
+public class MainReturnMethods {
     public static void main(String[] args) {
         int sum = add(7, 4);
         System.out.println("The result is: " + sum);

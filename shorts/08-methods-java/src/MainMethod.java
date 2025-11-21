@@ -1,4 +1,4 @@
-public class Main {
+public class MainMethod {
     public static void main(String[] args) {
         sayHello(); //calls the method
     }
